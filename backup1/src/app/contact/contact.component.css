@@ -1,0 +1,75 @@
+.main {
+    max-width: 600px;
+    margin: 0px auto 100px;
+    text-align: center;
+}
+.overline {
+    display: block;
+    margin-bottom: 20px;
+    color: var(--green);
+    font-family: var(--font-mono);
+    font-size: var(--fz-md);
+    font-weight: 400;
+}
+
+.numbered-heading {
+
+    -webkit-box-align: center;
+    align-items: center;
+    position: relative;
+    margin: 10px 0px 40px;
+    width: 100%;
+    font-size: clamp(26px,5vw,var(--fz-heading));
+    white-space: nowrap;
+}
+
+.eXnPVF .title {
+    font-size: clamp(40px, 5vw, 60px);
+}
+h2{
+margin: 0px 0px 10px;
+font-weight: 600;
+color: var(--lightest-slate);
+line-height: 1.1;
+}
+
+p:last-child, p:last-of-type {
+    margin: 0px;
+}
+
+a:after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 1px;
+    bottom: 0;
+    left: 0;
+    background-color:
+        var(--green);
+    transform-origin: bottom right;
+    transition: transform 0.35s ease-out;
+}
+
+a:hover:after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+}
+p{
+    margin: 34px!important;
+}
+.resume-button {
+    color: var(--green);
+    background-color: transparent;
+    border: 1px solid var(--green);
+    border-radius: var(--border-radius);
+    padding: 0.75rem 1rem;
+    font-family: var(--font-mono);
+    line-height: 1;
+    text-decoration: none;
+    cursor: pointer;
+    transition: var(--transition);
+    margin-top: 35px;
+    font-size: 15px
+
+}

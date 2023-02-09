@@ -1,0 +1,26 @@
+table {
+    text-align: left;
+    color: blueviolet;
+    width: 94%;
+
+}
+
+table td,
+table th {
+    border: 1px solid blueviolet;
+    padding: 10px;
+
+    width: 15%;
+}
+
+
+img {
+    width: 100px;
+    height: 100px;
+}
+
+
+button {
+    border: none;
+}
+
